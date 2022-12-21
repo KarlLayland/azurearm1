@@ -22,6 +22,6 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/KarlLayland/azurearm1/main/template.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/KarlLayland/azurearm1/main/parameters.json'
-    overrideParameters: '-projectName EnterAProjectName'
+    overrideParameters: 
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
